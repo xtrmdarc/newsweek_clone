@@ -3,6 +3,15 @@ button {
   font-weight: bold;
 }
 
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
 main {
   padding: 10px 2.5% !important;
 }
@@ -172,7 +181,7 @@ header .main_nav ul li:last-child span {
 
 .main_aside {
   padding-left: 40px;
-  top: -200px;
+  top: calc(-136%);
 }
 
 .featured_topic {
@@ -263,12 +272,13 @@ header .main_nav ul li:last-child span {
 }
 
 .featured_stories {
-  top: -200px;
+  top: calc(-130% );
 }
 
 .culture_travel {
   background-color: #f4f5f7;
   margin-top: 20px;
+  margin-bottom: 20px;
   padding-top: 10px;
 }
 
@@ -296,3 +306,31 @@ header .main_nav ul li:last-child span {
   font-weight: 300;
 }
 
+.more_stories article h4{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.more_stories article p{
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+.m-l-m-20 {
+  margin-left: -20px;
+}
+
+.border-bottom {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(192, 192, 192, 0.616);
+}
+
+.more_stories ul li {
+  padding-top: 10px;
+}
+
+.more_stories ul li:first-child {
+  padding-top: 10px;
+}
