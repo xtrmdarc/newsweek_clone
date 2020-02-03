@@ -22,6 +22,11 @@ main {
   justify-content: flex-end;
 }
 
+.gray_white_block {
+  background: gray;
+  color: white;
+}
+
 .red_white_block {
   background: red;
   color: white;
@@ -100,6 +105,10 @@ header .main_nav ul li:last-child span {
   height: 15px;
 }
 
+.align-flex-start {
+  align-items: flex-start;
+}
+
 .featured_article img {
   width: 100%;
   height: auto;
@@ -125,6 +134,10 @@ header .main_nav ul li:last-child span {
   color: black;
 }
 
+.opinion_articles {
+  margin-bottom: 20px;
+}
+
 .opinion_articles article .opinion_info {
   margin-left: -20px;
 }
@@ -139,23 +152,27 @@ header .main_nav ul li:last-child span {
   font-size: 12px;
   color: gray;
   font-weight: bold;
+  display: inline-block;
+  line-height: 20px;
+  margin-top: 3px;
 }
 
-.opinion_articles li {
+.vertical_articles_bot_bordered li {
   border-bottom: 1px solid rgba(117, 117, 117, 0.534);
   padding: 10px 0;
 }
 
-.opinion_articles li:first-child {
+.vertical_articles_bot_bordered li:first-child {
   padding: 0 0 10px 0;
 }
 
-.opinion_articles li:last-child {
+.vertical_articles_bot_bordered li:last-child {
   border: none;
 }
 
 .main_aside {
-  padding-left: 30px;
+  padding-left: 40px;
+  top: -200px;
 }
 
 .featured_topic {
@@ -191,3 +208,91 @@ header .main_nav ul li:last-child span {
 .following_article h3{
   font-size: 15px;
 }
+
+.latest_news h4 {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-left: -20px;
+}
+
+.signup_wrapper {
+  padding: 20px;
+}
+
+.signup_newsletter {
+  padding: 20px;
+  border: 1px solid rgba(172, 172, 172, 0.432);
+  background-color: rgba(228, 228, 228, 0.397);
+}
+
+.signup_newsletter h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.signup_newsletter .nl_header_wrapper .nl_logo{
+  display: inline-block;
+  background: url('https://g.newsweek.com/www/images/logo-n1.svg') center/contain no-repeat #f72210;
+  width: 30px;
+  height: 30px;
+}
+
+.signup_newsletter .nl_header_wrapper {
+  margin-bottom: 10px;
+}
+
+.signup_newsletter button {
+  padding: 10px;
+}
+
+.signup_newsletter button:hover {
+  opacity: 0.8;
+}
+
+.nl_header_wrapper {
+  align-items: center;
+}
+
+.signup_newsletter .cta {
+  font-size: 13px;
+  color: rgb(44, 44, 44);
+  font-weight: 800;
+  display: block;
+  margin-top: 7px;
+}
+
+.featured_stories {
+  top: -200px;
+}
+
+.culture_travel {
+  background-color: #f4f5f7;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.culture_travel .info_wrapper {
+  padding: 10px;
+}
+
+.culture_travel .info_wrapper h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.culture_travel .info_wrapper p {
+  font-size: 14px;
+  opacity: 0.64;
+  line-height: 18px;
+} 
+
+.culture_travel .info_wrapper .tag {
+  display: inline-block;
+  background: rgb(184, 214, 240);
+  padding: 3px;
+  color: gray;
+  font-size: 12px;
+  font-weight: 300;
+}
+
