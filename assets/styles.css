@@ -451,7 +451,6 @@ header .main_nav ul li:last-child span {
   opacity: 0.6;
 }
 
-
 .more_conversations .play_button {
   opacity: 1;
   width: 35px;
@@ -487,4 +486,35 @@ header .main_nav ul li:last-child span {
 
 .featured_slideshows article {
   margin-bottom: 25px;
+}
+
+.border-b {
+  border-bottom: 1px solid rgba(192, 192, 192, 0.616);
+}
+
+.border-t {
+  border-top: 1px solid rgba(192, 192, 192, 0.616);
+}
+
+.topic_section .topic_text {
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+}
+
+.topic_section {
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.topic_section .articles_wrapper h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 7px;
+}
+
+.topic_section .secondary_articles h4{
+  font-size: 14px;  
+  font-weight: 800;
+  line-height: 20px;
 }
