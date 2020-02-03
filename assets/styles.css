@@ -3,6 +3,10 @@ button {
   font-weight: bold;
 }
 
+main {
+  padding: 10px 2% !important;
+}
+
 .header_logo {
   background-color: red;
   padding: 16px 10px;
@@ -98,4 +102,28 @@ header .main_nav ul li:last-child span {
   border-left: 14px solid white;
   width: 84px;
   height: 15px;
+}
+
+.featured_article img {
+  width: 100%;
+  height: auto;
+}
+
+.featured_article h3 {
+  font-weight: bold;
+  font-size: 21px;
+  margin-top: 8px;
+  /* line-height: 23px; */
+}
+
+.featured_article p {
+  font-size: 14px;
+}
+
+.red_underline_link {
+  color: black;
+}
+
+.red_underline_link:hover {
+  text-decoration: underline red;
 }
