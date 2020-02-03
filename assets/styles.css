@@ -36,6 +36,11 @@ main {
   color: white;
 }
 
+.white_red_block {
+  background:white;
+  color: red;
+}
+
 .red_white_block {
   background: red;
   color: white;
@@ -347,4 +352,116 @@ header .main_nav ul li:last-child span {
   margin: 0 8px;
   font-size: 18px;
   font-weight: bold;
+}
+
+.articles_wrapper {
+  padding-top: 20px;
+}
+
+.in_the_mag {
+  margin-top: 40px;
+}
+
+.see_all_link {
+  display: block;
+  padding: 8px 0;
+  text-align: center;
+  font-weight: 800;
+  font-size: 17px;
+}
+
+.see_all_link:hover {
+  background-color: #d8d8d8;
+}
+
+.in_the_mag .articles_wrapper .tags {
+  margin-top: 9px;
+}
+
+.in_the_mag .articles_wrapper .tags span{
+  font-weight: bold;
+  padding: 4px 7px;
+}
+
+.in_the_mag .articles_wrapper h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 7px;
+}
+
+.in_the_mag .section_title {
+  padding-top: 0;
+  padding-bottom: 10px;
+  margin-top: -20px;
+}
+
+.in_the_mag .articles_wrapper article img {
+  object-fit: cover;
+  height: 250px;
+}
+
+.conversations .red_underline_link {
+  color: white;
+}
+
+.conversations  .main_about {
+  padding: 25px;
+}
+
+.conversations  .main_about h4 {
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.conversations  .main_about p {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.conversations  .main_about span {
+  opacity: 0.5;
+}
+
+.conversations .main_wrapper {
+  color: white !important;
+  background: black;
+}
+
+.conversations .img-fluid {
+  width: 100%;
+}
+
+.play_button {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+}
+
+.more_conversations h4 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.more_conversations img {
+  height: 100%;
+}
+
+.more_conversations span {
+  opacity: 0.6;
+}
+
+
+.more_conversations .play_button {
+  opacity: 1;
+  width: 35px;
+  height: 35px;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.conversations .main_conversation img {
+  height: 100%;
 }
