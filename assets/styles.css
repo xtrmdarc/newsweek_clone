@@ -1,0 +1,101 @@
+button {
+  border: none;
+  font-weight: bold;
+}
+
+.header_logo {
+  background-color: red;
+  padding: 16px 10px;
+}
+
+.newsweek_logo {
+  color: white;
+  fill: white;
+}
+
+.buttons_signin {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.red_white_block {
+  background: red;
+  color: white;
+}
+
+.gray_red_block {
+  background-color: aliceblue;
+  color: red;
+}
+
+.text_date {
+  font-size: 14px;
+  font-weight: 100;
+  color: white;
+}
+
+header nav ul {
+
+}
+
+.back_red_link {
+  color: black;
+}
+
+.back_red_link:hover {
+  color: red;
+  text-decoration: none;
+}
+
+header .main_nav {
+  width: 92%;
+  padding: 15px 0px;
+}
+
+header .main_nav ul li a{
+  font-weight: bold;
+  color: black;
+  font-size: 18px;
+}
+
+header .main_nav ul li {
+  border-left: 1px solid rgba(146, 146, 146, 0.493);
+}
+
+header .main_nav ul li:last-child {
+  border: none;
+  position: relative;
+}
+
+header .main_nav ul li:last-child a {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+header .main_nav ul li:last-child span {
+  position: absolute;
+  right: -10px;
+  top: 4px;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+}
+
+.search_icon {
+  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
+}
+
+.nav-search {
+  position: relative;
+}
+
+#right_half_wing {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: red;
+  border-top: 15px solid red;
+  border-left: 14px solid white;
+  width: 84px;
+  height: 15px;
+}
