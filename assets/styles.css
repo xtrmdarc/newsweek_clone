@@ -465,3 +465,26 @@ header .main_nav ul li:last-child span {
 .conversations .main_conversation img {
   height: 100%;
 }
+
+.featured_slideshows .articles_wrapper h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 11px;
+}
+
+.slideshows_count {
+  width: 50px;
+  height: auto;
+  padding-left: 18px;
+  padding-top: 9px;
+  padding-bottom: 4px;
+  color: red;
+  vertical-align: middle;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.featured_slideshows article {
+  margin-bottom: 25px;
+}
