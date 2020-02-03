@@ -240,7 +240,7 @@ header .main_nav ul li:last-child span {
   font-weight: bold;
 }
 
-.signup_newsletter .nl_header_wrapper .nl_logo{
+.nl_logo{
   display: inline-block;
   background: url('https://g.newsweek.com/www/images/logo-n1.svg') center/contain no-repeat #f72210;
   width: 30px;
@@ -333,4 +333,18 @@ header .main_nav ul li:last-child span {
 
 .more_stories ul li:first-child {
   padding-top: 10px;
+}
+
+.section_title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 25px 0;
+}
+
+.section_title h2 {
+  margin: 0 8px;
+  font-size: 18px;
+  font-weight: bold;
 }
