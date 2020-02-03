@@ -518,3 +518,34 @@ header .main_nav ul li:last-child span {
   font-weight: 800;
   line-height: 20px;
 }
+
+.sub_news {
+  margin-top: 20px;
+}
+
+.sub_news .content-cta{
+  background-color: #f4f5f6;
+  padding: 40px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.sub_news .content-cta button {
+  padding: 8px;
+}
+
+.sub_news .content-cta p {
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.sub_news .promo_text {
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.h-100 {
+  height: 100%;
+}
+
