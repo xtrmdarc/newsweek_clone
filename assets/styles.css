@@ -3,6 +3,10 @@ button {
   font-weight: bold;
 }
 
+.img-fluid {
+  width: 100%;
+}
+
 a {
   color: inherit;
 }
@@ -218,10 +222,6 @@ header .main_nav ul li:last-child span {
   font-size: 15px;
   font-weight: bold;
   opacity: 0.85;
-}
-
-.main_wrapper {
-  padding-right: 0;
 }
 
 .following_article {
@@ -732,11 +732,19 @@ footer .navigation li:hover {
   .newsletter_section {
     background: white;
     margin-top: 60px;
-  }
+  } 
 
   .newsletter_section .content-cta {
     background: white;
     border: 1px solid rgba(209, 209, 209, 0.603);
+  }
+
+  .subscribe_section .content-cta .img-fluid {
+    width: auto;
+  }
+
+  .subscribe_section .content-cta h4 {
+    margin-top: 10px;
   }
 
   .newsletter_section .content-cta .img-fluid {
@@ -781,6 +789,41 @@ footer .navigation li:hover {
 
   .border-right-nav li {
     border: none;
+  }
+
+  .topic_section .secondary_articles {
+    margin-top: 20px; 
+  }
+
+  .main_aside {
+    padding-left: 40px;
+    top: auto;
+  }
+
+  .featured_stories {
+    top: auto;
+  }
+
+  .top_story {
+    order: -1;
+  }
+
+  .position_handler {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main_article {
+    order: 1;
+  }
+
+  .more_stories {
+    order: 2;
+    margin-top: 15px;
+  }
+
+  .culture_travel {
+    order: 3;
   }
 
 }
