@@ -7,6 +7,10 @@ button {
   z-index: 2;
 }
 
+a {
+  z-index: 10000;
+}
+
 body {
   z-index: 1;
 }
