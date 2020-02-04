@@ -3,6 +3,14 @@ button {
   font-weight: bold;
 }
 
+* {
+  z-index: 2;
+}
+
+body {
+  z-index: 1;
+}
+
 .img-fluid {
   width: 100%;
 }
@@ -187,7 +195,7 @@ header .main_nav ul li:last-child span {
 }
 
 .vertical_articles_bot_bordered li {
-  border-bottom: 1px solid rgba(117, 117, 117, 0.534);
+  border-bottom: 1px solid rgba(214, 214, 214, 0.616);
   padding: 10px 0;
 }
 
@@ -500,7 +508,7 @@ header .main_nav ul li:last-child span {
 }
 
 .border-b {
-  border-bottom: 1px solid rgba(192, 192, 192, 0.616);
+  border-bottom: 1px solid rgba(192, 192, 192, 0.336);
 }
 
 .border-t {
@@ -654,29 +662,51 @@ footer .navigation li:hover {
   height: 100%;
 }
 
-@media screen and (min-width: 720px) and (max-width: 1199px ){
+.subscribe_section .content-cta .img-fluid {
+  width: auto;
+}
+
+.sticky-header {
+  position: sticky !important;
+  top: 0;
+  z-index: 1000;
+}
+
+.play_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more_conversations .no-gutters {
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px ){
+
   .main_nav {
-    display: none;
+    display: none !important;
   }
 
   .right_half_wing {
-    display: none;
+    display: none !important;
   }
 
   .header_logo .text_date {
-    display: none;
+    display: none !important;
   }
 
   .newsweek_logo svg {
-    width: 140px;
+    width: 140px !important;
   }
 
   #right_half_wing {
-    display: none;
+    display: none !important;
   }
 
   .hamburguer_menu {
-    display: block;
+    display: block !important;
   }
 
   .newsletter_section {
@@ -702,31 +732,60 @@ footer .navigation li:hover {
     padding: 30px;
   }
 
+  .main_aside {
+    padding: 15px;
+  }
+
+  .opinion_articles article .opinion_info {
+    padding-left: 50px;
+  }
+
+  .latest_news h4 {
+    margin-left: -10px;
+  }
+
+  .signup_wrapper {
+    padding: 20px 25vw;
+  }
+
+  .in_the_mag .articles_wrapper article img {
+    height: 20vw;
+  }
+
+  .in_the_mag .see_all_features img{
+    margin-top: 4vw;
+  }
+
+  .in_the_mag .see_all_features a{
+    font-size: 14px;
+  }
+
 }
 
 @media screen and (max-width: 767px) {
+
   .main_nav {
-    display: none;
+    display: none !important;
   }
 
   .right_half_wing {
-    display: none;
+    display: none !important;
   }
 
   .header_logo .text_date {
-    display: none;
+    display: none !important;
   }
 
   .newsweek_logo svg {
-    width: 140px;
+    width: 140px !important;
   }
 
   #right_half_wing {
-    display: none;
+    display: none !important;
   }
 
   .hamburguer_menu {
-    display: block;
+    display: block !important;
   }
 
   .newsletter_section {
@@ -739,12 +798,11 @@ footer .navigation li:hover {
     border: 1px solid rgba(209, 209, 209, 0.603);
   }
 
-  .subscribe_section .content-cta .img-fluid {
-    width: auto;
-  }
-
   .subscribe_section .content-cta h4 {
-    margin-top: 10px;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 14px;
   }
 
   .newsletter_section .content-cta .img-fluid {
@@ -824,6 +882,64 @@ footer .navigation li:hover {
 
   .culture_travel {
     order: 3;
+  }
+
+  .more_stories ul li {
+    padding: 15px 0;
+  }
+
+  .m-l-m-20 {
+    margin-left: -15px;
+  }
+
+  .main_aside {
+    padding: 15px;
+  }
+
+  .latest_news h4 {
+    margin-left: 0;
+  }
+
+  .opinion_articles article .opinion_info {
+    padding-left: 60px;
+  }
+
+  .signup_wrapper {
+    padding: 20px 20vw;
+  }
+
+  .in_the_mag .section_title {
+    margin-top: 10px;
+  }
+
+  .in_the_mag .articles_wrapper article {
+    margin-top: 15px;
+  }
+
+  .conversations .main_about {
+    order: 2;
+  }
+
+  .conversations .main_conversation {
+    order: 1;
+  }
+
+  .conversations .more_conversations {
+    order: 3;
+  }
+
+  .topic_section .articles_wrapper article:nth-child(2) {
+    margin-top: 15px;
+  }
+
+  .secondary_articles li:last-child {
+    width: 100%;
+  }
+
+  .more_conversations .no-gutters {
+    border-left: none;
+    border-top: 1px solid white;
+    border-bottom: none;
   }
 
 }
