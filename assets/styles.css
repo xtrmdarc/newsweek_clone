@@ -26,6 +26,11 @@ main {
   fill: white;
 }
 
+.newsweek_logo_red {
+  color: white;
+  fill: red;
+}
+
 .buttons_signin {
   display: flex;
   justify-content: flex-end;
@@ -549,3 +554,91 @@ header .main_nav ul li:last-child span {
   height: 100%;
 }
 
+footer {
+  padding: 30px 80px;
+  margin-top: 20px;
+}
+
+footer header {
+  padding-top: 30px;
+}
+
+footer .newsweek_logo_red  svg{
+  width: 200px;
+  height: auto;
+}
+
+footer .newsweek_logo_red  span {
+  position: absolute;
+  color: black;
+  bottom: -3px;
+  color: gray;
+  font-size: 11px;
+  margin-left: 10px;
+}
+
+footer .navigation {
+  margin-top: 15px;
+  padding-top: 10px;
+}
+
+footer .navigation {
+  font-size: 13px;
+  color: gray;
+}
+
+footer .navigation ul {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+footer .navigation li:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.border-left-nav li{
+  border-left: 1px solid #d8d8d8;
+  padding: 0px 10px;
+}
+
+.border-left-nav li:first-child {
+  border: none;
+  padding: 0 10px 0 0;
+}
+
+.border-right-nav li {
+  border-right: 1px solid #d8d8d8;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.language-nav li:nth-child(2) {
+  border: none;
+}
+
+.site-nav li {
+  margin-top: 10px !important;
+}
+
+.site-nav li:last-child {
+  border: none;
+}
+
+.social_icons_set {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.social_icons_set span{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.social_icons_set span:hover {
+  color: blue;
+  cursor: pointer;
+}
