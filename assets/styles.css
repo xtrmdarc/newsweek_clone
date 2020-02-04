@@ -660,7 +660,7 @@ footer .navigation li:hover {
   border-bottom: 1px solid white;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .main_nav {
     display: none !important;
   }
