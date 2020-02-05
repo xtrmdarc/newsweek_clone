@@ -19,32 +19,21 @@ main {
   padding: 10px 2.5%;
 }
 
-.hamburguer_menu {
-  display: none;
-}
-
 .header_logo {
   background-color: red;
   padding: 16px 10px;
 }
 
 .newsweek_logo {
-  color: white;
   fill: white;
 }
 
 .newsweek_logo_red {
-  color: white;
   fill: red;
-}
-
-.buttons_signin button {
-  border-radius: 0;
 }
 
 .gray_white_block {
   background: gray;
-  color: white;
 }
 
 .white_red_block {
@@ -54,7 +43,6 @@ main {
 
 .red_white_block {
   background: red;
-  color: white;
 }
 
 .gray_red_block {
@@ -64,8 +52,6 @@ main {
 
 .text_date {
   font-size: 14px;
-  font-weight: 100;
-  color: white;
 }
 
 .black_red_link {
@@ -83,8 +69,6 @@ header .main_nav {
 }
 
 header .main_nav ul li a {
-  font-weight: bold;
-  color: black;
   font-size: 18px;
 }
 
@@ -93,13 +77,11 @@ header .main_nav ul li {
 }
 
 header .main_nav ul li:last-child {
-  border: none;
   position: relative;
 }
 
 header .main_nav ul li:last-child a {
   font-size: 15px;
-  font-weight: 300;
 }
 
 header .main_nav ul li:last-child span {
@@ -130,17 +112,12 @@ header .main_nav ul li:last-child span {
   height: 15px;
 }
 
-.align-flex-start {
-  align-items: flex-start;
-}
-
 .featured_article img {
   width: 100%;
   height: auto;
 }
 
 .featured_article h3 {
-  font-weight: bold;
   font-size: 19px;
   margin-top: 8px;
 }
@@ -168,15 +145,11 @@ header .main_nav ul li:last-child span {
 
 .opinion_articles article .opinion_info h4 {
   font-size: 15px;
-  font-weight: bold;
   margin-bottom: 0;
 }
 
 .opinion_articles article .opinion_info span {
   font-size: 12px;
-  color: gray;
-  font-weight: bold;
-  display: inline-block;
   line-height: 20px;
   margin-top: 3px;
 }
@@ -190,10 +163,6 @@ header .main_nav ul li:last-child span {
   padding: 0 0 10px 0;
 }
 
-.vertical_articles_bot_bordered li:last-child {
-  border: none;
-}
-
 .main_aside {
   padding-left: 40px;
   top: calc(-136%);
@@ -202,20 +171,16 @@ header .main_nav ul li:last-child span {
 .featured_topic {
   color: rgb(156, 156, 156);
   font-size: 14px;
-  display: block;
   text-transform: uppercase;
   margin-bottom: 7px;
-  font-weight: bold;
 }
 
 .l_b_topic_tag {
   position: absolute;
-  display: inline-block;
   bottom: 0;
   left: 0;
   padding: 9px;
   font-size: 15px;
-  font-weight: bold;
   opacity: 0.85;
 }
 
@@ -231,7 +196,6 @@ header .main_nav ul li:last-child span {
 
 .latest_news h4 {
   font-size: 15px;
-  font-weight: bold;
   line-height: 20px;
   margin-left: -20px;
 }
@@ -248,11 +212,9 @@ header .main_nav ul li:last-child span {
 
 .signup_newsletter h4 {
   font-size: 16px;
-  font-weight: bold;
 }
 
 .nl_logo {
-  display: inline-block;
   background: url('https://g.newsweek.com/www/images/logo-n1.svg') center/contain no-repeat #f72210;
   width: 30px;
   height: 30px;
@@ -270,15 +232,9 @@ header .main_nav ul li:last-child span {
   opacity: 0.8;
 }
 
-.nl_header_wrapper {
-  align-items: center;
-}
-
 .signup_newsletter .cta {
   font-size: 13px;
   color: rgb(44, 44, 44);
-  font-weight: 800;
-  display: block;
   margin-top: 7px;
 }
 
@@ -299,7 +255,6 @@ header .main_nav ul li:last-child span {
 
 .culture_travel .info_wrapper h3 {
   font-size: 20px;
-  font-weight: 300;
 }
 
 .culture_travel .info_wrapper p {
@@ -309,22 +264,17 @@ header .main_nav ul li:last-child span {
 }
 
 .culture_travel .info_wrapper .tag {
-  display: inline-block;
   background: rgb(184, 214, 240);
   padding: 3px;
-  color: gray;
   font-size: 12px;
-  font-weight: 300;
 }
 
 .more_stories article h4 {
   font-size: 14px;
-  font-weight: bold;
 }
 
 .more_stories article p {
   font-size: 14px;
-  font-weight: 300;
   line-height: 18px;
   margin-bottom: 10px;
 }
@@ -347,17 +297,12 @@ header .main_nav ul li:last-child span {
 }
 
 .section_title {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
   padding: 25px 0;
 }
 
 .section_title h2 {
   margin: 0 8px;
   font-size: 18px;
-  font-weight: bold;
 }
 
 .articles_wrapper {
@@ -369,10 +314,7 @@ header .main_nav ul li:last-child span {
 }
 
 .see_all_link {
-  display: block;
   padding: 8px 0;
-  text-align: center;
-  font-weight: 800;
   font-size: 17px;
 }
 
@@ -385,13 +327,11 @@ header .main_nav ul li:last-child span {
 }
 
 .in_the_mag .articles_wrapper .tags span {
-  font-weight: bold;
   padding: 4px 7px;
 }
 
 .in_the_mag .articles_wrapper h3 {
   font-size: 18px;
-  font-weight: bold;
   margin-top: 7px;
 }
 
@@ -404,10 +344,6 @@ header .main_nav ul li:last-child span {
 .in_the_mag .articles_wrapper article img {
   object-fit: cover;
   height: 250px;
-}
-
-.conversations .red_underline_link {
-  color: white;
 }
 
 .conversations .main_about {
@@ -429,7 +365,6 @@ header .main_nav ul li:last-child span {
 }
 
 .conversations .main_wrapper {
-  color: white;
   background: black;
 }
 
@@ -442,14 +377,10 @@ header .main_nav ul li:last-child span {
   width: 50px;
   height: 50px;
   opacity: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .more_conversations h4 {
   font-size: 15px;
-  font-weight: bold;
 }
 
 .more_conversations img {
@@ -476,7 +407,6 @@ header .main_nav ul li:last-child span {
 
 .featured_slideshows .articles_wrapper h3 {
   font-size: 20px;
-  font-weight: bold;
   margin-top: 11px;
 }
 
@@ -508,7 +438,6 @@ header .main_nav ul li:last-child span {
 .topic_section .topic_text {
   font-size: 20px;
   color: red;
-  font-weight: bold;
 }
 
 .topic_section {
@@ -518,13 +447,11 @@ header .main_nav ul li:last-child span {
 
 .topic_section .articles_wrapper h3 {
   font-size: 18px;
-  font-weight: bold;
   margin-top: 7px;
 }
 
 .topic_section .secondary_articles h4 {
   font-size: 14px;
-  font-weight: 800;
   line-height: 20px;
 }
 
@@ -536,7 +463,6 @@ header .main_nav ul li:last-child span {
   background-color: #f4f5f6;
   padding: 40px;
   margin-top: 10px;
-  align-items: center;
   height: 100%;
 }
 
@@ -545,13 +471,11 @@ header .main_nav ul li:last-child span {
 }
 
 .sub_news .content-cta p {
-  font-weight: 100;
   font-size: 14px;
 }
 
 .sub_news .promo_text {
   color: red;
-  font-weight: bold;
   font-size: 14px;
 }
 
@@ -576,7 +500,6 @@ footer .newsweek_logo_red svg {
 footer .newsweek_logo_red span {
   position: absolute;
   bottom: -3px;
-  color: gray;
   font-size: 11px;
   margin-left: 10px;
 }
@@ -585,7 +508,6 @@ footer .navigation {
   margin-top: 15px;
   padding-top: 10px;
   font-size: 13px;
-  color: gray;
 }
 
 footer .navigation li:hover {
@@ -599,7 +521,6 @@ footer .navigation li:hover {
 }
 
 .border-left-nav li:first-child {
-  border: none;
   padding: 0 10px 0 0;
 }
 
@@ -609,28 +530,15 @@ footer .navigation li:hover {
   padding-right: 10px;
 }
 
-.language-nav li:nth-child(2) {
-  border: none;
-}
-
 .site-nav li {
   margin-top: 10px;
-}
-
-.site-nav li:last-child {
-  border: none;
 }
 
 .social_icons_set {
   padding-right: 34px;
 }
 
-.social_icons_set .row {
-  justify-content: flex-end;
-}
-
 .social_icons_set span {
-  display: inline-block;
   width: 25px;
   height: 25px;
   margin-left: 10px;
@@ -661,28 +569,8 @@ footer .navigation li:hover {
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  .main_nav {
-    display: none !important;
-  }
-
-  .right_half_wing {
-    display: none !important;
-  }
-
-  .header_logo .text_date {
-    display: none !important;
-  }
-
   .newsweek_logo svg {
     width: 140px !important;
-  }
-
-  #right_half_wing {
-    display: none !important;
-  }
-
-  .hamburguer_menu {
-    display: block !important;
   }
 
   .newsletter_section {
@@ -738,28 +626,8 @@ footer .navigation li:hover {
 }
 
 @media screen and (max-width: 767px) {
-  .main_nav {
-    display: none !important;
-  }
-
-  .right_half_wing {
-    display: none !important;
-  }
-
-  .header_logo .text_date {
-    display: none !important;
-  }
-
   .newsweek_logo svg {
     width: 31vw !important;
-  }
-
-  #right_half_wing {
-    display: none !important;
-  }
-
-  .hamburguer_menu {
-    display: block !important;
   }
 
   .newsletter_section {
@@ -788,22 +656,12 @@ footer .navigation li:hover {
     height: auto;
   }
 
-  .sub_news .content-cta {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
-
   footer {
     padding: 30px;
   }
 
   .social_icons_set {
     margin-top: 20px;
-  }
-
-  .social_icons_set .row {
-    justify-content: flex-start;
   }
 
   .social_icons_set span {
@@ -814,7 +672,6 @@ footer .navigation li:hover {
   footer .newsweek_logo_red span {
     position: static;
     margin: 0;
-    display: block;
     margin-top: 10px;
   }
 
@@ -841,11 +698,6 @@ footer .navigation li:hover {
 
   .top_story {
     order: -1;
-  }
-
-  .position_handler {
-    display: flex;
-    flex-direction: column;
   }
 
   .main_article {
