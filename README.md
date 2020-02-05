@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/xtrmdarc/newsweek_clone/55268f7e63d0734df2c42e9d5fe1f34b9fa3ef89/index.html)
+[Live Demo Link](https://rawcdn.githack.com/xtrmdarc/newsweek_clone/406f3f888f5b50b70c2d9fb1c7e8a20e16de2597/index.html)
 
 ### Prerequisites
 To make this repository working in your local machine you need only a browser.
